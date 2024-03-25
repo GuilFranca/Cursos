@@ -1,0 +1,30 @@
+.ok{
+    color: aliceblue;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    display: block; /* Torna o botão um bloco para permitir o uso de margin */
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+    } 
+
+
+.btn{
+    padding: 10px 8px;
+    width: 50px;
+    height: 20px;
+    color: #fff;
+    background: #209915;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #176110;
+    transition: background 1s;
+}
