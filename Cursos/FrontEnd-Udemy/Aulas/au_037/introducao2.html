@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Trabalhando com imagens</title>
+
+    <style>
+
+        body{
+            font-size: 22px;
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto;
+
+            background-image: url(Imagens/bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; /*primeiro valor = largura, segundo valor = altura */
+            background-position: right bottom; /*A imagem vai grudar na parte de baixo*/
+        }
+
+        p{
+            line-height: 1.5;
+            /* text-align: justify; */
+        }
+        
+        .img-logo{
+            width: 400px
+        }
+
+        .img-html{
+            float: left;
+        }
+
+        .img-css{
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com imagens</h1>
+
+    <h2>Imagens vetoriais vs bitmap</h2>
+
+    <img src="Imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo serfrontend">
+    <br>
+    <img src="Imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo serfrontend">
+
+    <h2>Imagens transparentes</h2>
+
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="">
+
+    <h2>gif animado</h2>
+    <img src="imagens/walk.gif" alt="animação mulher andando">
+
+    <h2>Float</h2>
+
+    <img src="Imagens/html5.png" alt="logotipo HTML5" class="img-html">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae hic quis quas dolore! Commodi perspiciatis error laudantium, omnis consequatur, adipisci facere quia ipsa cum impedit voluptatibus ab accusamus optio?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sapiente quisquam debitis soluta quae. Qui pariatur minima cum vel aliquam aliquid ipsum nobis sint eius quidem ratione architecto incidunt illum commodi quae a numquam assumenda, laudantium dolor magnam soluta unde asperiores in. Est odit autem ab facere alias velit! Sed veniam esse repudiandae tenetur facilis beatae expedita corrupti consequuntur libero numquam hic quia velit quibusdam vitae consequatur mollitia, aut, eaque molestias pariatur dolore alias? Ad, soluta voluptates? Aspernatur, consectetur molestiae?</p>
+
+    <img src="Imagens/css3.png" alt="logotipo CSS3" class="img-css">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem ab nulla laboriosam beatae, veritatis repellat fugiat dolorum voluptatibus quod laudantium cupiditate delectus facere nesciunt repellendus dolorem nemo eum nobis.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sapiente quisquam debitis soluta quae. Qui pariatur minima cum vel aliquam aliquid ipsum nobis sint eius quidem ratione architecto incidunt illum commodi quae a numquam assumenda, laudantium dolor magnam soluta unde asperiores in. Est odit autem ab facere alias velit! Sed veniam esse repudiandae tenetur facilis beatae expedita corrupti consequuntur libero numquam hic quia velit quibusdam vitae consequatur mollitia, aut, eaque molestias pariatur dolore alias? Ad, soluta voluptates? Aspernatur, consectetur molestiae?</p>
+
+</body>
+</html>
