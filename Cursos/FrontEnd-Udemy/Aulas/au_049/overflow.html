@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit-content</title>
+
+    <style>
+
+        body{
+            margin-bottom: 500px;
+        }
+
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5);
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+
+        .overflow-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+        }
+
+        .overflow-auto{
+            overflow: auto;
+        }
+
+        .overflow-y-hidden{
+            overflow-y: hidden;
+        }
+
+        .overflow-x-scroll{
+            overflow-x: scroll;
+        }
+
+        .overflow-visible{
+            overflow: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container fit-content overflow-visible">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab adipisci debitis nisi repellendus sit vel corrupti? Doloribus quisquam at aperiam eaque totam autem commodi!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam illum quam aspernatur expedita incidunt commodi illo, repudiandae ducimus nobis inventore voluptatem eligendi adipisci nam, facilis non consectetur eveniet. Accusamus omnis aliquam tempore tempora unde distinctio iusto veritatis aliquid ducimus in alias exercitationem et accusantium voluptatibus totam reiciendis atque error, incidunt, ut sit voluptate cupiditate neque. Delectus aliquam perspiciatis dolore nostrum pariatur labore dolores ea odit? Corrupti ipsa et, blanditiis dolor totam optio ad. Exercitationem?</div>
+    </div>
+
+    <div class="container min-content overflow-y-hidden overflow-x-scroll">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab adipisci debitis nisi repellendus sit vel corrupti? Doloribus quisquam at aperiam eaque totam autem commodi!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam illum quam aspernatur expedita incidunt commodi illo, repudiandae ducimus nobis inventore voluptatem eligendi adipisci nam, facilis non consectetur eveniet. Accusamus omnis aliquam tempore tempora unde distinctio iusto veritatis aliquid ducimus in alias exercitationem et accusantium voluptatibus totam reiciendis atque error, incidunt, ut sit voluptate cupiditate neque. Delectus aliquam perspiciatis dolore nostrum pariatur labore dolores ea odit? Corrupti ipsa et, blanditiis dolor totam optio ad. Exercitationem?</div>
+    </div>
+
+    <div class="container max-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, veniam.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab adipisci debitis nisi repellendus sit vel corrupti? Doloribus quisquam at aperiam eaque totam autem commodi!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam illum quam aspernatur expedita incidunt commodi illo, repudiandae ducimus nobis inventore voluptatem eligendi adipisci nam, facilis non consectetur eveniet. Accusamus omnis aliquam tempore tempora unde distinctio iusto veritatis aliquid ducimus in alias exercitationem et accusantium voluptatibus totam reiciendis atque error, incidunt, ut sit voluptate cupiditate neque. Delectus aliquam perspiciatis dolore nostrum pariatur labore dolores ea odit? Corrupti ipsa et, blanditiis dolor totam optio ad. Exercitationem?</div>
+    </div>
+
+</body>
+</html>
